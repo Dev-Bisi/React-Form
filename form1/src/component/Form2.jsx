@@ -20,7 +20,7 @@ const Form2 = () => {
   };
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center">
+    <div className="min-h-screen w-full flex items-center justify-center bg-black text-white">
       <form
         onSubmit={handleSubmit}
         className="min-w-xl h-auto p-4 shadow-md rounded-lg flex flex-col gap-5"

@@ -22,7 +22,7 @@ const Form = () => {
 
 
   return (
-    <div className='min-h-screen w-full flex items-center justify-center'>
+    <div className='min-h-screen w-full flex items-center justify-center bg-black text-white'>
         <form className='min-w-xl h-auto p-4 shadow-md rounded-lg flex flex-col gap-5'>
             <h2 className='text-xl text-center uppercase'>Collect User Info</h2>
             <input value={username} onChange={handleUsernameChange} type="text" placeholder='Enter Username' className='p-2 ring-1 ring-slate-300 rounded-md' />
